@@ -1,0 +1,28 @@
+h1{
+    color : red;
+}
+
+h2{
+    color: orange;
+}
+
+h1+h2{
+    color:blue;
+}
+
+h1+h2+p{
+    text-align: center;
+    color: black;
+}
+
+h2 + p {
+    color: blue;
+}
+
+p + h2 + p {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+
